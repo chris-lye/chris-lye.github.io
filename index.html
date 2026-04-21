@@ -39,14 +39,15 @@
             color: #777;
         }
         /* Defacement Overlay Styles */
+        /* comment out display: none */
         .defaced-container {
-            display: none; /* Hidden by default; toggle manually */
+            /* display: none;  */
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #000;
+            background-color: #8c0c0c;
             color: #0f0; /* Classic Terminal Green */
             z-index: 9999;
             font-family: 'Courier New', Courier, monospace;
@@ -96,7 +97,7 @@
         <p>Current Integrity Status: <strong>Verified</strong></p>
     </div>
 
-    <div id="defacement-overlay" class="defaced-container">
+    <div class="defaced-container">
         <h1>WEBSITE HAS BEEN DEFACED, 1337 1337.</h1>
         <div class="defaced-message">
             <p>PWNED BY: [TEST_USER]</p>
